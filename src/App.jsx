@@ -26,8 +26,16 @@ function App() {
         backgroundImage: `url('https://previews.123rf.com/images/gkrphoto/gkrphoto1504/gkrphoto150400037/39142879-money-background-from-different-currency.jpg')`,
       }}
     >
-      <div className="w-full">
-        <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+      <div className="max-w-md  ">
+        <img
+          src="https://assets.weforum.org/article/image/MP-QjyyPOa4ejDIjb3ZZNPgpv6i7N4jrEaDywV4-lK0.JPG"
+          alt="currency image"
+          className="rounded-2xl"
+        />
+      </div>
+
+      <div className="w-full    max-w-lg">
+        <div className="w-full max-w-md mx-auto border border-black rounded-lg p-5 backdrop-blur-sm bg-white/70">
           <form
             onSubmit={(e) => {
               e.preventDefault();
